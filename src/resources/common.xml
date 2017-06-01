@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<host>
+
+	<param key="path" value="192.168.33.177" />
+	<param key="port" value="60" />
+	<param key="ssoInterface" value="/login.aspx" />
+	<param key="CheckAuthedToken" value="/CheckAuthedToken.ashx" />
+
+	<param key="hostName" value="TulingYun" />
+	<param key="registerPath" value="192.168.33.177" />
+	<param key="registerPort" value="60" />
+	<param key="registerInterface" value="/ServerRegisterSSOUser.ashx" />
+	<param key="defalutPage" value="/default.aspx" />
+	<param key="updateInterface" value="/UpdateSSOUser.ashx" />
+	<param key="checkAliveInterface" value="CheckAlive.ashx" />
+	<param key="passwordResetInterface" value="/ServerResetPassword.ashx" />
+
+	<param key="privateToken" value="TulingYun" />
+
+
+
+	<param key="asyncPath" value="192.168.33.177" />
+	<param key="asyncPort" value="80" />
+	<param key="app" value="APP_emall" />
+	<param key="app_secret" value="133ebdded282991b19998451de370261" />
+	<param key="AccountChangedInterface" value="/ISV/SyncContact/AccountChanged.ashx" />
+	<param key="ContactChangedInterface" value="/ISV/SyncContact/ContactChanged.ashx" />S
+
+
+</host>

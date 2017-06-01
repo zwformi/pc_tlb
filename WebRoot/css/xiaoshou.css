@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+body{
+    background:#F6F6F6;
+    font-family:"微软雅黑";
+    min-width:1220px;
+}
+.left{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear{
+    clear:both;
+}
+.banner{
+    width:100%;
+    height:422px;
+    background:url(../img/banner1.png) center center;
+    background-size:cover;
+}
+.item{
+    width:1212px;
+    height:178px;
+    margin:0 auto;
+    padding:30px 0px;
+
+}
+.item>a{
+    display:inline-block;
+    box-sizing: border-box;
+    width:190px;
+    margin-right:12px;
+    height:178px;
+    float:left;
+    text-align:center;
+    background:#FFFFFF;
+}
+.item>a:link{
+	color:#373737;
+    font-size:18px;
+    line-height:36px;
+}
+.item>a:last-child{
+    margin-right:0px;
+    border-right:none;
+}
+.item>a:hover{
+    color:#ffffff;
+    background:#D74340;
+}
+.item>a:hover i{
+    color:#FFFFFF;
+}
+.email, .virtualization, .meeting, .crm, .assistant{
+    width:1200px;
+    margin:0 auto;
+}
+.title{
+    width:1198px;
+    height:59px;
+    border:1px solid #d74340;
+    background:#FFFFFF;
+
+}
+.title p{
+	line-height:59px;
+    font-size:26px;
+}
+.main{
+    width:1080px;
+    padding:30px 60px 15px 60px;
+    background:#FFFFFF;
+    font-size:13px;
+    line-height:24px;
+    overflow:hidden;
+}
+.main h3{
+    font-weight:normal;
+    line-height:32px;
+}
+.main li{
+    list-style:inside disc;
+}
+.part_one{
+    margin-top:100px;
+    width:630px;
+    height:325px;
+}
+.part_two{
+    width:1080px;
+}
+.part_four{
+    height:190px;
+}
+.part_four>span{
+    display:block;
+    height:120px;
+    width:29px;
+    background:url(../img/add.png) center center no-repeat;
+}
+.part_four>div{
+    width:150px;
+    padding-top:120px;
+}
+.part_four p{
+    overflow:hidden;
+    white-space:nowrap;
+    text-align:center;
+}
+.part_four .price{
+    color:#E33941;
+}
+.w_server{
+    background:url(../img/windows_service.png) top center no-repeat;
+}
+.w_cal{
+    background:url(../img/CAL.png) top center no-repeat;
+}
+.ex_server{
+    background:url(../img/exchange.png) top center no-repeat;
+}
+.bushu{
+    background:url(../img/bushu.png) top center no-repeat;
+}
+.part_four .equal, .part_four .platform .equal{
+    background:url(../img/equal.png) center center no-repeat;
+}
+.part_four .all, .part_four .platform .all{
+    padding-top:25px;
+}
+.part_four .all p, .part_four .platform .all p{
+    font-size:20px;
+    line-height:32px;
+    font-weight:bold;
+}
+.part_four .all a, .part_four .platform .all a{
+    display:block;
+    width:120px;
+    height:40px;
+    color:#FFFFFF;
+    background:#E33941;
+    margin:0 auto;
+    text-align:center;
+    line-height:40px;
+    font-size:18px;
+    font-weight:bold;
+    margin-top:10px;
+}
+.part_four .all a:hover, .part_four .platform .all a:hover{
+    background:#ED6764;
+}
+.virtualization, .meeting, .crm, .assistant{
+    margin-top:30px;
+}
+.virtualization .part_one{
+    margin-top:0px;
+    height:400px;
+}
+.part_one li ul{
+    padding-left:30px;
+}
+.part_one li>ul li{
+    list-style:circle;
+}
+.system{
+    background:url(../img/system_center.png) top center no-repeat;
+}
+.meeting .part_one{
+    margin-top:0px;
+    height:490px;
+    width:615px;
+    margin-left:15px;
+}
+.meeting li{
+    list-style:none;
+    font-weight:bold;
+}
+.meeting li ul{
+    padding:0;
+}
+.meeting li ul li{
+    list-style:none;
+    font-weight:normal;
+}
+.TE30_C{
+    background:url(../img/TE30_C.png) top center no-repeat;
+}
+.crm .part_one{
+    margin-top:10px;
+    height:420px;
+}
+.crm .part_one>ul>li{
+    width:300px;
+    float:left;
+    list-style:none;
+    margin-bottom:15px;
+}
+.crm .part_one li ul{
+    padding:0;
+}
+.crm .part_one li ul li, .assistant .part_one li ul li{
+    list-style:none;
+}
+.crm .part_four{
+    height:640px;
+}
+.part_four .platform{
+    width:100%;
+    padding-top:0;
+    padding-left:30px;
+    overflow:hidden;
+    margin-bottom:10px;
+}
+.part_four .platform:last-child{
+    margin-bottom:0;
+}
+.part_four .platform>span{
+    display:block;
+    height:120px;
+    width:29px;
+    background:url(../img/add.png) center center no-repeat;
+}
+.part_four .platform>div{
+    width:150px;
+    padding-top:120px;
+}
+.part_four .platform>p{
+    text-align:left;
+    font-weight:bold;
+    margin-bottom:5px;
+}
+.part_four .platform>div p{
+    overflow:hidden;
+    white-space:nowrap;
+    text-align:center;
+}
+.crmsvr{
+    background:url(../img/crmsvr.png) top center no-repeat;
+}
+.survey{
+    background:url(../img/survey.png) top center no-repeat;
+}
+.design{
+    background:url(../img/design.png) top center no-repeat;
+}
+.software{
+    background:url(../img/software.png) top center no-repeat;
+}
+.test{
+    background:url(../img/test.png) top center no-repeat;
+}
+.train{
+    background:url(../img/train.png) top center no-repeat;
+}
+.pingtai{
+    background:url(../img/pingtai.png) top center no-repeat;
+}
+.product{
+    background:url(../img/product.png) top center no-repeat;
+}
+.assistant .part_one{
+    height:570px;
+    margin:0;
+}
+.assistant .part_one li ul{
+    padding:0;
+}
+.assistant .part_one>ul>li{
+    list-style:none;
+}
+.part_four .phone{
+    padding-top:135px;
+    background:url(../img/phone.png) top center no-repeat;
+}
+.remarks{
+    width:100%;
+    margin-top:10px;
+}
+.remarks ul{
+    margin-right:20px;
+}
+.remarks li{
+    list-style:none;
+}
+.fixbtn{
+    position:fixed;
+    bottom:0px;
+    right:0;
+}
+.fixbtn>a{
+    width:30px;
+    height:30px;
+    padding:7px;
+    display:block;
+    margin-bottom:10px;
+    background:#999999;
+    text-align:center;
+    font-size:12px;
+    line-height:14px;
+}
+.fixbtn>a i{
+    font-size:24px;
+    line-height:26px;
+    color:#FFFFFF;
+}
+.footer{
+    width:100%;
+    background:#333333;
+    height:50px;
+    margin-top:30px;
+}
+.footer>div{
+    width:1200px;
+    margin:0 auto;
+}
+.footer span{
+    color:#999999;
+    line-height:50px;
+    font-size:12px;
+}
+.footer a{
+    color:#999999;
+}
+.footer a:hover{
+    color:#FFFFFF;
+}

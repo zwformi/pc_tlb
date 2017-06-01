@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+.leftmenu {
+	float:left;
+	width: 191px;
+	border: 1px solid #E0E0E0;
+	border-bottom: 0px;
+}
+
+.leftmenu .list {
+	line-height: 28px;
+	padding: 5px 0px;
+	color: #404040;
+	font-size: 13px;
+	border-bottom: solid 1px #e0e0e0;
+}
+
+.title {
+	cursor: pointer;
+}
+
+.title span {
+	float: left;
+	margin: 0px 8px 0px 12px;
+	color: #9E9E9E;
+	font-size: 14px;
+}
+
+.title a {
+	display: block;
+	color: #9E9E9E;
+}
+
+.menuson li {
+	height: 28px;
+}
+
+.menuson li a {
+	text-align: left;
+	display: block;
+	padding-left: 36px;
+	line-height: 28px;
+	font-weight: normal;
+	color: #404040;
+}
+
+.menuson li a:hover {
+	color: #EA6561;
+}
+
+.menuson li a.active {
+	background: #EA6561;
+	color: #ffffff;
+}

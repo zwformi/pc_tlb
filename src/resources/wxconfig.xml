@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wxpay>
+    <add key="wx_AppID" value="wx8f169648d6f07e56" />
+    <add key="wx_AppSecret" value="d4c46849692b78e4e30a322108e4c121" />
+    <add key="wx_mch_id" value="1303750101" /><!--微信支付分配的商户号-->
+    <add key="wx_notify_url" value="http://www.tulingbuy.com/wx_notify.ashx" /><!--接收微信支付异步通知回调地址-->
+    <add key="wx_signKey" value="1234567abcd" /><!--加密Key-->
+    <add key="wx_HostUrl" value="http://www.tulingbuy.com/" />
+</wxpay>
